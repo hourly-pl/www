@@ -1,10 +1,45 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr" class="sid-softreck">
 <head>
-    <meta charset="UTF-8">
-    <title>HourLy</title>
+    <title>HourLy.pl</title>
+
+    <meta name="copyright" content="Copyright 2019-2021. Softreck. All rights reserved.">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+    <script src="https://meet.jit.si/external_api.js"></script>
+
+    <script src="https://anvil.works/embed.js" async></script>
+
 </head>
 <body>
+
+<iframe style="width:100%;" data-anvil-embed src="https://EGCIQKM5LMB6XDWI.anvil.app/XGTF4HNWEOVEE2VNDSMGDJ3F"></iframe>
+
+
+<div anvil-slot="default"></div>
+<div id="jitsi"></div>
+
+<script>
+    function initJitsi(domain, options) {
+        options.parentNode = this.find("#jitsi")[0]
+        window.japi = new JitsiMeetExternalAPI(domain, options);
+    }
+</script>
+
+<style>
+    #jitsi iframe {
+        width: 100%;
+        border: none;
+    }
+</style>
+
 <ul>
     <ul>Kontakt na godziny</ul>
     <ul>Support przez Video chat</ul>
@@ -13,6 +48,7 @@
     <ul></ul>
 </ul>
 
-<div>Powered by jLoads.com</div>
+<div>Powered by Softreck.com</div>
+
 </body>
 </html>
